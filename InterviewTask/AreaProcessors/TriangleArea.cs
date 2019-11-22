@@ -16,7 +16,8 @@ namespace InterviewTask.AreaProcessors
         public double GetArea()
         {
             double halfPerimetr = GetTriangleHalfPerimetr(_triangle.SideA, _triangle.SideB, _triangle.SideC);
-            double SquareOfArea = halfPerimetr * (halfPerimetr - _triangle.SideA) * (halfPerimetr - _triangle.SideB) * (halfPerimetr * _triangle.SideC);
+            double temp = (halfPerimetr - _triangle.SideA) * (halfPerimetr - _triangle.SideB) * (halfPerimetr - _triangle.SideC); 
+            double SquareOfArea = halfPerimetr * temp;
             double output = Math.Sqrt(SquareOfArea);
             return output;
         }

@@ -16,9 +16,9 @@ namespace InterviewTask.Helpers
         {
             double[] sides = new double[] { triangle.SideA, triangle.SideB, triangle.SideC };
             Array.Sort(sides);
-            double hypothenuse = Math.Pow(sides[0], 2);
-            double summOfLegs = Math.Pow((sides[1] + sides[2]), 2);
-            if (hypothenuse > summOfLegs)
+            double hypothenuse = Math.Pow(sides[2], 2);
+            double summOfLegs = Math.Pow(sides[0], 2) + Math.Pow(sides[1],2);
+            if (hypothenuse == summOfLegs)
             {
                 return true;
             }

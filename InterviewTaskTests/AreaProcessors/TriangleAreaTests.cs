@@ -13,7 +13,6 @@ namespace InterviewTask.AreaProcessors.Tests
         public void GetAreaTest()
         {
             //Arrange
-            double result = 90.708324;
 
         }
     }

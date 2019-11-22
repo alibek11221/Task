@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InterviewTask
 {
-    interface IAreable
+    public interface IAreable
     {
         double GetArea();
     }
