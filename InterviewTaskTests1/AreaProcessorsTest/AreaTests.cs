@@ -12,14 +12,14 @@ namespace InterviewTask.AreaProcessors.Tests
     public class AreaTests
     {
         private IAreable Areable;
-        private Triangle triangle = new Triangle(6, 9, 8);
+        private Triangle triangle = new Triangle(6, 9, 3);
         private Circle circle = new Circle(5);
         [TestMethod()]
         public void GetTriangleAreaTest()
         {
             //Arrange
             Areable = new TriangleArea(triangle);
-            double expected = 23.525252389719434;
+            double expected = 0;
             //Act
             double actual = Areable.GetArea();
             //Assert
