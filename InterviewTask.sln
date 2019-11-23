@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewTask", "InterviewTask\InterviewTask.csproj", "{2DA25F15-EDE9-4CF8-9AF5-11D61EE5FE77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewTaskTests1", "InterviewTaskTests1\InterviewTaskTests1.csproj", "{B8BD512F-AB6A-4912-951B-D309DF15CB72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterviewTaskTests", "InterviewTaskTests1\InterviewTaskTests.csproj", "{B8BD512F-AB6A-4912-951B-D309DF15CB72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
