@@ -6,10 +6,10 @@ using static InterviewTask.Helpers.Helper;
 
 namespace InterviewTask.AreaProcessors
 {
-    public class TriangleArea : IAreable
+    public class TriangleAreaProcessor : IAreable
     {
         private Triangle _triangle;
-        public TriangleArea(Triangle triangle)
+        public TriangleAreaProcessor(Triangle triangle)
         {
             _triangle = triangle;
         }

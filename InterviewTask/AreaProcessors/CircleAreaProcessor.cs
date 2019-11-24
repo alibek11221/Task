@@ -5,11 +5,11 @@ using System.Text;
 
 namespace InterviewTask.AreaProcessors
 {
-    public class CircleArea : IAreable
+    public class CircleAreaProcessor : IAreable
     {
         private Circle _circle;
 
-        public CircleArea(Circle circle)
+        public CircleAreaProcessor(Circle circle)
         {
             _circle = circle;
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace InterviewTask
+namespace InterviewTask.AreaProcessors
 {
     public interface IAreable
     {
